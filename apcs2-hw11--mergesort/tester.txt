@@ -1,0 +1,91 @@
+=== System.currentTimeMillis() TEST ===
+
+1-item Ordered Time:	0.0 ms
+1-item Reversed Time:	0.0 ms
+1-item Randomly sorted Time:	0.0 ms
+1-item  Avg. Time:	0.0 ms
+10-item Ordered Time:	0.0 ms
+10-item Reversed Time:	0.0 ms
+10-item Randomly sorted Time:	0.0 ms
+10-item  Avg. Time:	0.0 ms
+100-item Ordered Time:	0.0 ms
+100-item Reversed Time:	0.0 ms
+100-item Randomly sorted Time:	0.0 ms
+100-item  Avg. Time:	0.0 ms
+1000-item Ordered Time:	0.0 ms
+1000-item Reversed Time:	0.0 ms
+1000-item Randomly sorted Time:	0.0 ms
+1000-item  Avg. Time:	0.0 ms
+10000-item Ordered Time:	5.0 ms  
+10000-item Reversed Time:	0.0 ms
+10000-item Randomly sorted Time:	5.333333333333333 ms
+10000-item  Avg. Time:	3.3333333333333335 ms
+100000-item Ordered Time:	22.666666666666668 ms
+100000-item Reversed Time:	23.0 ms
+100000-item Randomly sorted Time:	38.666666666666664 ms
+100000-item  Avg. Time:	27.666666666666668 ms
+1000000-item Ordered Time:	179.66666666666666 ms
+1000000-item Reversed Time:	167.0 ms
+1000000-item Randomly sorted Time:	288.0 ms
+1000000-item  Avg. Time:	211.33333333333334 ms
+10000000-item Ordered Time:	2494.3333333333335 ms
+10000000-item Reversed Time:	2557.3333333333335 ms
+10000000-item Randomly sorted Time:	3749.3333333333335 ms
+10000000-item  Avg. Time:	2933.3333333333335 ms
+
+
+
+
+=== System.nanoTime() test ===
+
+1-item Ordered Time:   131.66666666666666 ns
+1-item Reverse Ordered Time:   131.66666666666666 ns
+1-item Randomized Time:   131.66666666666666 ns
+1-item Total Avg Time:   131.0 ns
+
+10-item Ordered Time:   15395.333333333334 ns
+10-item Reverse Ordered Time:   8684.666666666666 ns
+10-item Randomized Time:   10527.333333333334 ns
+10-item Total Avg Time:   11535.333333333334 ns
+
+100-item Ordered Time:   50134.0 ns
+100-item Reverse Ordered Time:   45791.666666666664 ns
+100-item Randomized Time:   17237.666666666668 ns
+100-item Total Avg Time:   37720.666666666664 ns
+
+1000-item Ordered Time:   247513.0 ns
+1000-item Reverse Ordered Time:   332385.6666666667 ns
+1000-item Randomized Time:   418706.3333333333 ns
+1000-item Total Avg Time:   332868.0 ns
+
+10000-item Ordered Time:   1694299.3333333333 ns
+10000-item Reverse Ordered Time:   1586004.6666666667 ns
+10000-item Randomized Time:   2191694.3333333335 ns
+10000-item Total Avg Time:   1823999.0 ns
+
+100000-item Ordered Time:   1.5112506E7 ns
+100000-item Reverse Ordered Time:   1.1269803666666666E7 ns
+100000-item Randomized Time:   1.7876204E7 ns
+100000-item Total Avg Time:   1.4752837666666666E7 ns
+
+1000000-item Ordered Time:   1.4834241266666666E8 ns
+1000000-item Reverse Ordered Time:   1.3914442833333334E8 ns
+1000000-item Randomized Time:   2.1640731066666666E8 ns
+1000000-item Total Avg Time:   1.6796471666666666E8 ns
+
+10000000-item Ordered Time:   1.4901743513333333E9 ns
+10000000-item Reverse Ordered Time:   1.3898656503333333E9 ns
+10000000-item Randomized Time:   2.2338584923333335E9 ns
+10000000-item Total Avg Time:   1.704632831E9 ns
+
+
+  n=1          time: 131 ns
+  n=10         time: 11535 ns
+  n=100        time: 37721 ns
+  n=1000       time: 332868 ns
+  n=10000      time: 1823999 ns
+  n=100000     time: 14752838 ns
+  n=1000000    time: 167964717 ns
+  n=10000000   time: 1704632831 ns
+  
+  

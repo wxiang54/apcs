@@ -1,0 +1,17 @@
+Team TheBigSort
+APCS Pd 10
+HW10 -- Justify
+2016-03-08
+
+
+I believe mergesort is O(n log n).
+
+Phase 1: Splitting
+	> Splitting into groups of 2
+	> O(log base 2 of n)
+	
+Phase 2: Merging
+	> n comparisons per n items during a merge
+	> O(n)
+	
+Total: For log n operations, do n operations -> O(n log n)
