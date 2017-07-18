@@ -1,0 +1,58 @@
+===============================================================================================================
+Given the following code are the contents of itemArray and val after a call of mod(itemArray,val)?
+int[] itemArray = {9, 8, 7, 6};
+int val = 5;
+
+public static void mod(int[] a, int value)
+{
+   for (int i=0; i < a.length; i++)
+   {
+      a[i] = i;
+   }
+   value = a[a.length-1];
+}
+itemArray = {0, 1, 2, 3} and val = 3;
+itemArray = {0, 1, 2, 3} and val = 5; ***
+itemArray = {0, 0, 0, 0} and val = 0;
+itemArray = {9, 8, 7, 6} and val = 3;
+itemArray = {9, 8, 7, 6} and val = 5;
+===============================================================================================================
+
+===============================================================================================================
+String s1 = new String("Hi There");
+String s2 = new String("Hi There");
+String s3 = s1;
+
+I.   (s1 == s2)
+II.  (s1.equals(s2))
+III. (s1 == s3)
+IV.  (s2.equals(s3))
+
+II and IV
+II, III, and IV ***
+I, II, III, IV
+II only
+IV only
+
+Choice B: II, III, and IV
+
+I is false, because == compares references and s1 and s2 reference different String objects.
+
+II is true because String.equals() compares value and s1 and s2 contain identical String values.
+
+III is true because == compares references and the line "String s3 = s1;" made s3 reference s1's String.
+
+IV is true because by the dank Java transitive property, if s1.equals(s2) [established earlier] and s1.equals(s3) [based on s1==s3], then s2.equals(s3).
+===============================================================================================================
+
+===============================================================================================================
+
+===============================================================================================================
+
+===============================================================================================================
+
+===============================================================================================================
+
+===============================================================================================================
+
+===============================================================================================================
