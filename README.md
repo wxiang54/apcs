@@ -1,2 +1,2 @@
 # apcs
-Collection of my APCS homeworks under Mr. Topher Brown-Mykolyk
+Collection of my APCS homeworks and projects under the instruction of Mr. Topher Brown-Mykolyk
