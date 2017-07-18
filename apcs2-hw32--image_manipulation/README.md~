@@ -1,0 +1,4 @@
+# Send-Pix-Pls
+HW #32: 2^10 Groups of 64-Bits
+
+git submodule add https://github.com/wxiang54/Send-Pix-Pls.git DubX-Men && git commit -am "added submodule for DubX-Men" && git push

@@ -1,0 +1,97 @@
+Team DubX-Men -- Sachal Malick, William Xiang
+APCS Pd10
+HW32: 2^10 Groups of 64-Bits
+2016-04-14
+
+
+=== A1: Introduction to digital pictures and color ===
+
+1. How many bits does it take to represent the values from 0 to 255?
+	A: 8 bits (11111111 B2 = 255 B10, 00000000 B2 = 0 B10)
+	
+2. How many bytes does it take to represent a color in the RGB color model?
+	A: 3 bytes; 24 bits (3 values in range 0-255)
+	
+3. How many pixels are in a picture that is 640 pixels wide and 480 pixels high?
+	A: 307200 pixels (640px * 480px)
+	
+	
+	
+=== A2: Picking a color ===
+
+1. How can you make pink?
+	A: RGB 255,153,203
+	
+2. How can you make yellow?
+	A: RGB 255,255,0
+	
+3. How can you make purple?
+	A: RGB 102,0,204
+	
+4. How can you make white?
+	A: RGB 255,255,255
+	
+5. How can you make dark gray?
+	A: RGB 64,64,64
+	
+	
+	
+=== A3: Exploring a picture ===
+
+1. What is the row index for the top left corner of the picture?
+	A: Row 0
+2. What is the column index for the top left corner of the picture?
+	A: Column 0
+3. The width of this picture is 640. What is the right most column index?
+	A: Column 639
+4. The height of this picture is 480. What is the bottom most row index?
+	A: Row 479
+5. Does the row index increase from left to right or top to bottom?
+	A: Top to bottom
+6. Does the column index increase from left to right or top to bottom?
+	A: Left to right
+7. Set the zoom to 500%. Can you see squares of color? This is called pixelation. Pixelation means
+displaying a picture so magnified that the individual pixels look like small squares. 
+	A: Ye ezpz
+
+
+	
+=== A4: Two-dimensional arrays in Java ===
+
+
+
+=== A5: Modifying a picture ===
+
+1. Open Picture.java and look for the method getPixels2D. Is it there?
+	A: Nope fk
+	
+2. Open SimplePicture.java and look for the method getPixels2D. Is it there?
+	A: Ye ez
+	
+3. Does the following code compile? 
+ DigitalPicture p = new DigitalPicture();
+	A: Yes, object type DigitalPicture = var type DigitalPicture is obviously OK
+	
+4. Assuming that a no-argument constructor exists for SimplePicture, would the following
+code compile?
+ DigitalPicture p = new SimplePicture();
+	A: Yes, obj type SimplePicture inherits var type DigitalPicture
+
+5. Assuming that a no-argument constructor exists for Picture, does the following code
+compile?
+ DigitalPicture p = new Picture();
+	A: Yes, obj type Picture inherits var type DigitalPicture
+
+6. Assuming that a no-argument constructor exists for Picture, does the following code
+compile?
+ SimplePicture p = new Picture();
+	A: Yes, obj type Picture inherits var type SimplePicture
+	
+7. Assuming that a no-argument constructor exists for SimplePicture, does the following
+code compile?
+ Picture p = new SimplePicture();
+	A: No, obj type SimplePicture does not inherit var type Picture
+	
+ 
+ 
+=== A6: Mirroring pictures ===
